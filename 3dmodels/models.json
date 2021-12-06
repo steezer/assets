@@ -4,18 +4,18 @@
     "data":  [
         {
            "name": "Damaged Helmet",
-           "thumb": "https://web.resx.stwms.cn/assets/3dmodels/models/DamagedHelmet.png",
-           "url": "https://web.resx.stwms.cn/assets/3dmodels/models/DamagedHelmet.glb"
+           "thumb": "https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/DamagedHelmet.png",
+           "url": "https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/DamagedHelmet.glb"
         },
         {
             "name": "Logo",
-            "thumb": "https://web.resx.stwms.cn/assets/3dmodels/models/logo.png",
-            "url": "https://web.resx.stwms.cn/assets/3dmodels/models/logo.obj,https://web.resx.stwms.cn/assets/3dmodels/models/logo.mtl"
+            "thumb": "https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/logo.png",
+            "url": "https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/logo.obj,https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/logo.mtl"
         },
         {
             "name": "Solids",
-            "thumb": "https://web.resx.stwms.cn/assets/3dmodels/models/solids.png",
-            "url": "https://web.resx.stwms.cn/assets/3dmodels/models/solids.obj,https://web.resx.stwms.cn/assets/3dmodels/models/solids.mtl"
+            "thumb": "https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/solids.png",
+            "url": "https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/solids.obj,https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/solids.mtl"
         }
     ]
 }
