@@ -16,6 +16,16 @@
             "name": "Solids",
             "thumb": "https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/solids.png",
             "url": "https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/solids.obj,https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/solids.mtl"
+        },
+        {
+            "name": "Walk Women",
+            "thumb": "https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/rp_mei_posed_001_30k.png",
+            "url": "https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/rp_mei_posed_001_30k.fbx"
+        },
+        {
+            "name": "Wood Table",
+            "thumb": "https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/Wood_Table_74.png",
+            "url": "https://cdn.jsdelivr.net/gh/steezer/assets/3dmodels/models/Wood_Table_74.fbx"
         }
     ]
 }
