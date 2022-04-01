@@ -1,0 +1,77 @@
+THE MUSIC OF DUKE NUKEM 3D
+--------------------------
+The songs listed here are in the order in which they appear in the game.
+Songs with an (RP) after the title were written by Robert C. Prince III.
+Songs with an (LJ) after the title were written by Lee Jackson.
+
+All MIDI files in the game use the Apogee/3D Realms EMIDI format, designed
+by Jim Dose' and Lee Jackson.
+
+TITLE SONG
+----------
+GRABBAG.MID  - Grabbag (Theme from Duke Nukem 3D) (LJ)
+
+EPISODE ONE
+-----------
+STALKER.MID  - Stalker (LJ)
+DETHTOLL.MID - Taking the Death Toll (RP)
+STREETS.MID  - The City Streets (RP)
+WATRWLD1.MID - Water World (RP)
+SNAKE1.MID   - Sneaky Snake (RP)
+THECALL.MID  - The Call of Death (RP)
+AHGEEZ.MID   - Ah, Geez! (LJ)
+
+EPISODE TWO
+-----------
+FUTURMIL.MID - Future Military Conquests (LJ)
+STORM.MID    - Space Storm (RP)
+GUTWRNCH.MID - Gut Wrencher (RP)
+ROBOCREP.MID - RoboCreeping (LJ)
+STALAG.MID   - Stalag 3-D (LJ)
+PIZZED.MID   - Pissed! (RP)
+ALIENZ.MID   - Aliens, Say Your Prayers! (RP)
+XPLASMA.MID  - Plasma (LJ)
+ALFREDH.MID  - Alfred H. (My Family's Plot) (LJ)
+GLOOMY.MID   - Gloomy (LJ)
+INTENTS.MID  - In Tents (LJ)
+
+EPISODE THREE
+-------------
+INHIDING.MID - In Hiding (RP)
+FATCMDR.MID  - Going After the Fat Commander (RP)
+NAMES.MID    - Taking Names (RP)
+SUBWAY.MID   - Subway (RP)
+INVADER.MID  - Invader (RP)
+GOTHAM.MID   - Gotham (LJ)
+233C.MID     - 233.778 Celsius (LJ)
+LORDOFLA.MID - Lord of L.A. (RP)
+URBAN.MID    - Urban Jungle (LJ)
+SPOOK.MID    - Spook (RP)
+WHOMP.MID    - Whomp (LJ)
+
+Music list for Plutonium Pak/Atomic Duke
+----------------------------------------
+BRIEFING.MID - Briefing Room (Opening Cinematic)
+MISSIMP.MID  - Missing?  Impossible!
+WAREHAUS.MID - Warehaus
+BAKEDGDS.MID - Baked Goods
+PREPD.MID    - Preparation D
+CF.MID       - Calypso Facto
+LEMCHILL.MID - Lemon Chilllllllllllllllll
+LAYERS.MID   - Layers of Dust
+FLOGHORN.MID - Floghorn
+POB.MID      - Pissed Office Box
+DEPART.MID   - Departure
+RESTRICT.MID - Restricted Area
+
+All songs for the Plutonium Pak/Atomic Duke are by Lee Jackson.
+
+OTHER (DIGITIZED) MUSIC
+-----------------------
+BONUS.VOC    - Huh Huh...You Said Bonus (LJ)
+BARMUSIC.VOC - Mortail Wombat (LJ)
+2BWILD.VOC   - ...Or Not to be Wild (LJ)
+WHISTLE.VOC  - excerpt from Grabbag (LJ)
+GRABBAG.VOC  - Grabbag (reprise) (LJ)
+MUZAK028.VOC - Grabbag (Muzak Version) (LJ)
+MUZAKDIE.VOC - Grabbag (Muzak Death) (LJ)
