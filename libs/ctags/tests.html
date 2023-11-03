@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test For CTags</title>
+</head>
+<body>
+    <script type="module">
+        import Ctags from './ctags-es.js';
+        Ctags({
+            'INITIAL_MEMORY': 335544320,
+            'noInitialRun': true
+        }).then(module=>{
+            
+            //console.log(module.FS);
+            module.FS.writeFile('/test.c', `
+                #include <stdio.h>
+                long fib(long num){
+                    if(num < 2){
+                        return 1;
+                    }
+                    return fib(num-1)+fib(num-2);
+                }
+
+                int main(int argc, char* argv[]) {
+                    long num=40;
+                    printf("%ld\n", fib(num));
+                    return 0;
+                }
+            `);
+            let callCtags=module.cwrap('main', 'number', ['number', 'number']);
+            let strArr = ['ctags', '/test.c'];
+            let ptrArr = module.stackAlloc(strArr.length * 4);
+            for (let i = 0; i < strArr.length; i++) {
+                let len = strArr[i].length + 1;
+                let ptr = module.stackAlloc(len);
+                module.stringToUTF8(strArr[i], ptr, len);
+                module.setValue(ptrArr + i * 4, ptr, "i32");
+            }
+            callCtags(strArr.length, ptrArr);
+            console.log('Finish');
+            
+            console.log(module.FS.cwd());
+            console.log(module.FS.readFile('/test.c', {encoding: 'utf8'}));
+            console.log(module.FS.readFile('/tags', {encoding: 'utf8'}));
+            console.log(module.FS.isFile('/tags', 'r'));
+            
+            console.log(module.FS.readdir('/'));
+        }).catch(e=>{
+            console.log(e);
+        })
+    </script>
+</body>
+</html>

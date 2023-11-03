@@ -1,0 +1,2 @@
+Mtest	./test.c	/^int main(int argc, char* argv[]) {$/
+fib	./test.c	/^long fib(long num){$/
